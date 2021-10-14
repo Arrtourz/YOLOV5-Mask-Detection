@@ -70,9 +70,8 @@ $ python detect.py --source 0  # webcam
 
 Run commands below to resume training
 on mask dataset (dataset auto-downloads on
-first use). Training times for YOLOv5s are 10 hours on a GTX1060TI (multi-GPU times faster). Use the
-largest `--batch-size` your GPU allows (batch sizes shown for 16 GB devices).
-
+first use). Training times for YOLOv5s are 10 hours on a GTX1060TI (multi-GPU times faster). 
+  
 ```bash
 $ python train.py --resume
 ```
@@ -81,3 +80,16 @@ $ python train.py --resume
 <img width="800" src="https://raw.githubusercontent.com/Zhenyu2077/YOLOV5_Mask_Detection/main/runs/train/exp3/test_batch1_pred.jpg">
 </details>
 
+<details open>
+<summary>Web API</summary>
+
+Implement the API via flack of custom model weight
+API consisting of a form where you can upload an image, and see the inference result of the model in the browser.
+
+```bash
+$ python3 webapp.py --port 5000
+```
+
+<img width="800" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/runs/train/exp3/results.png?raw=trueg">
+<img width="800" src="https://raw.githubusercontent.com/Zhenyu2077/YOLOV5_Mask_Detection/main/runs/train/exp3/test_batch1_pred.jpg">
+</details>
