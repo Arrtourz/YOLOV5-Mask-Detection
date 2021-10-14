@@ -1,5 +1,5 @@
 # YOLOV5 Mask Detection
-Detection API Deployed via Flake 
+Detection API Deployed via Flask
 
 <details open>
 <summary>Inference</summary>
@@ -37,7 +37,7 @@ $ python train.py --resume
 <details open>
 <summary>Web API</summary>
 
-Implement the API via flake of custom model weight.
+Implement the API via flask of custom model weight.
 API consisting of a form where you can upload an image, and see the inference result of the model in the browser.
 
 ```bash
