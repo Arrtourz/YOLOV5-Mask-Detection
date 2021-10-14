@@ -8,7 +8,7 @@
 ## <div align="center">Quick Start Examples</div>
 
 <details open>
-<summary>Install<summary>
+<summary>Install</summary>
 
 [**Python>=3.6.0**](https://www.python.org/) is required with all
 [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) installed including
@@ -49,7 +49,7 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 
 
 
-<details>
+<details open>
 <summary>Inference with detect.py</summary>
 
 `detect.py` runs inference on a variety of sources, downloading models automatically from
@@ -67,7 +67,7 @@ $ python detect.py --source 0  # webcam
 
 </details>
 
-<details>
+<details open>
 <summary>Training</summary>
 
 Run commands below to resume training
