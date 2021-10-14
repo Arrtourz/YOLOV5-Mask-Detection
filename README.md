@@ -79,5 +79,5 @@ $ python train.py --resume
 
 <img width="800" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/runs/train/exp3/results.png?raw=trueg">
 <img width="800" src="https://raw.githubusercontent.com/Zhenyu2077/YOLOV5_Mask_Detection/main/runs/train/exp3/test_batch1_pred.jpg">
-
+</details>
 
