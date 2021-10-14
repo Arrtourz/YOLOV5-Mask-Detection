@@ -1,7 +1,5 @@
 # YOLOV5 Mask Detection
-
-
-
+# Detection API Deployed via Flake 
 </div>
 
 
