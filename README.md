@@ -90,6 +90,6 @@ API consisting of a form where you can upload an image, and see the inference re
 $ python3 webapp.py --port 5000
 ```
 
-<img width="800" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/runs/train/exp3/results.png?raw=trueg">
-<img width="800" src="https://raw.githubusercontent.com/Zhenyu2077/YOLOV5_Mask_Detection/main/runs/train/exp3/test_batch1_pred.jpg">
+<img width="800" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/test.jpg">
+<img width="800" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/image0.jpg">
 </details>
