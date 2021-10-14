@@ -8,7 +8,7 @@
 ## <div align="center">Quick Start Examples</div>
 
 <details open>
-<summary>Install</summary>
+<summary>Install<summary>
 
 [**Python>=3.6.0**](https://www.python.org/) is required with all
 [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) installed including
