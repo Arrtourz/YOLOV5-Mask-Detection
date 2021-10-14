@@ -89,7 +89,10 @@ API consisting of a form where you can upload an image, and see the inference re
 ```bash
 $ python3 webapp.py --port 5000
 ```
-<img width="800" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/Screenshot_Web.png">
+  
+ <p align="center">
+<img src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/Screenshot_Web.png" width="450">
+</p>
 <img width="400" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/test.jpg">
 <img width="400" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/image0.jpg">
 </details>
