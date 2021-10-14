@@ -4,32 +4,6 @@ Detection API Deployed via Flake
 <details open>
 <summary>Inference</summary>
 
-Inference with YOLOv5 and [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36). Models automatically download
-from the [latest YOLOv5 release](https://github.com/ultralytics/yolov5/releases).
-
-```python
-import torch
-
-# Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
-
-# Images
-img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-results = model(img)
-
-# Results
-results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
-```
-
-</details>
-
-
-
-<details open>
-<summary>Inference with detect.py</summary>
-
 `detect.py` runs inference on a variety of sources, downloading models automatically from
 the [latest YOLOv5 release](https://github.com/ultralytics/yolov5/releases) and saving results to `runs/detect`.
 
@@ -63,7 +37,7 @@ $ python train.py --resume
 <details open>
 <summary>Web API</summary>
 
-Implement the API via flack of custom model weight.
+Implement the API via flake of custom model weight.
 API consisting of a form where you can upload an image, and see the inference result of the model in the browser.
 
 ```bash
