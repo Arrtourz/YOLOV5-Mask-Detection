@@ -1,3 +1,6 @@
+# YOLOV5 Mask Detection
+
+
 <div align="center">
 <p>
 <a align="left" href="https://ultralytics.com/yolov5" target="_blank">
@@ -107,4 +110,3 @@ $ python train.py --data coco.yaml --cfg yolov5s.yaml --weights '' --batch-size 
 <img width="800" src="https://user-images.githubusercontent.com/26833433/90222759-949d8800-ddc1-11ea-9fa1-1c97eed2b963.png">
 
 
-# YOLOv5-Flask
