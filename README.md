@@ -24,7 +24,7 @@ $ python detect.py --source 0  # webcam
 
 Run commands below to resume training
 on mask dataset (dataset auto-downloads on
-first use). Training times for YOLOv5s are 10 hours on a GTX1060TI (multi-GPU times faster). 
+first use). Training times for YOLOv5s are 10 hours on a GTX1060TI. 
   
 ```bash
 $ python train.py --resume
