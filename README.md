@@ -82,6 +82,6 @@ largest `--batch-size` your GPU allows (batch sizes shown for 16 GB devices).
 $ python train.py --resume
 ```
 
-<img width="800" src="https://user-images.githubusercontent.com/26833433/90222759-949d8800-ddc1-11ea-9fa1-1c97eed2b963.png">
+<img width="800" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/runs/train/exp3/results.png?raw=trueg">
 
 
