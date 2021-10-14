@@ -91,7 +91,7 @@ $ python3 webapp.py --port 5000
 ```
   
  <p align="center">
-<img src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/Screenshot_Web.png" width="450">
+<img src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/Screenshot_Web.png" width="800">
 </p>
 <img width="400" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/test.jpg">
 <img width="400" src="https://github.com/Zhenyu2077/YOLOV5_Mask_Detection/blob/main/image0.jpg">
