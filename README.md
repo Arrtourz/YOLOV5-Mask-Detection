@@ -73,16 +73,13 @@ $ python detect.py --source 0  # webcam
 <details>
 <summary>Training</summary>
 
-Run commands below to reproduce results
-on [COCO](https://github.com/ultralytics/yolov5/blob/master/data/scripts/get_coco.sh) dataset (dataset auto-downloads on
-first use). Training times for YOLOv5s/m/l/x are 2/4/6/8 days on a single V100 (multi-GPU times faster). Use the
+Run commands below to resume training
+on mask dataset (dataset auto-downloads on
+first use). Training times for YOLOv5s are 10 hours on a GTX1060TI (multi-GPU times faster). Use the
 largest `--batch-size` your GPU allows (batch sizes shown for 16 GB devices).
 
 ```bash
-$ python train.py --data coco.yaml --cfg yolov5s.yaml --weights '' --batch-size 64
-                                         yolov5m                                40
-                                         yolov5l                                24
-                                         yolov5x                                16
+$ python train.py --resume
 ```
 
 <img width="800" src="https://user-images.githubusercontent.com/26833433/90222759-949d8800-ddc1-11ea-9fa1-1c97eed2b963.png">
